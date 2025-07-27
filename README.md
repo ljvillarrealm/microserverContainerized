@@ -1,37 +1,45 @@
-# microserver
-https://www.intelyclick.com/microserver/
+# microserverContanerized
 
+This is the containerized version of [santimatiz/microserver](https://github.com/santimatiz/microserver) that I made this project based on the [API-REST con Postgresql y MicroServer course](https://www.udemy.com/course/api-rest-con-postgresql/).
 
-I'ts a small server REST-API made in JAVA that call a query or function in POSTGRESQL or MYSQL and show the JSON.
+This project is built using podman and this is how it works:
+![diagram](./images/diagram.png)
+![config](./images/podman_run.png)
 
+This project is organized this way:
 
+- The folder 'microserver' is a copy of the original repo.
+- The folder 'project_resources' contains all the scripts related to projects developed in the course.
+- The folder 'microserver_containerized' is the folder where is possible to exec $podman compose up.
 
+Notes:
 
+- Optionally is possible to use the [wait-for-it](https://github.com/vishnubob/wait-for-it) script.
 
+## Projects
 
+### Project 1 evidences
 
-HOW INSTALL
-- Create schema 'microrest' in postgresql database
-- or table microrest_restapi in Mysql
-- Create table  'restapi' see directory sql
-- copy MicroServer.jar of dir 'build_jar'
-- run java jar : java -jar MicroServer <path configuration file>
+![Project 1 - test in postman](./images/test_postman.png)
 
-CONFIGURE (Config File)
-- you can configure the port by changing the 'port' in config file
-- Time Out
-- URL of you database connection , see JDBC documentation 
-- User database
-- Password database  
-  
-- SSL Support
-To view examples ,please visit
-https://www.intelyclick.com/como-anadir-soporte-ssl-para-microrest
-  
-  
-RUN MicroServer and by params put the location of config file.
-  
-  
-THATS ALL!!!
+### Project 2 evidences
 
-Enjoy.
+![Project 2 - test in postman](./images/test_postman_2.png)
+![Project 2 json variant - test in postman](./images/test_postman_2_json.png)
+
+### Project 3 evidences
+
+![Project 3 - test in postman](./images/test_postman_3.png)
+![Project 3 token table - test in postman](./images/test_postman_3_tokenTable.png)
+![Project 3 token table - test in postman](./images/test_postman_3_salutadejsontok.png)
+
+### Project 6 evidences
+
+![Project 6 - service /createuser/v1](./images/servicecreateuserv1.png)
+![Project 6 - use service /createuser/v1](./images/useservicecreateuserv1.png)
+![Project 6 - already exists](./images/alreadyexists.png)
+![Project 6 - password not valid](./images/passwordnotvalid.png)
+![Project 6 - email not valid](./images/emailnotvalid.png)
+![Project 6 - uncleaned and cleaned user creation](./images/uncleanedandcleanedusercreation.png)
+![Project 6 - user logged in ok](./images/userloggedinok.png)
+![Project 6 - user not logged](./images/usernotlogged.png)

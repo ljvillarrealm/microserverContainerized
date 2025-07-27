@@ -672,3 +672,31 @@ may consider it more useful to permit linking proprietary applications with
 the library.  If this is what you want to do, use the GNU Lesser General
 Public License instead of this License.  But first, please read
 <https://www.gnu.org/licenses/why-not-lgpl.html>.
+
+
+
+                            PROJECT LICENSE
+                                Version 1
+
+  This project was submitted by Leonardo Villarreal as part of the
+[API-REST con Postgresql y MicroServer course](https://www.udemy.com/course/api-rest-con-postgresql/).
+
+  As part of the [Udacity Honor code](https://www.udacity.com/en-US/legal/honor-code),the one that I follow for every learning/certification
+achievement, your submissions must be your own work, hence submitting this project
+as yours will cause you to break the Udacity Honor Code (and probably some
+similar ones).
+
+  Me, the author of the project, allow you to check the code as a reference, but if
+you submit it as yours whitout giving credits, it's your own responsibility.
+
+  Copyright (c) 2025 Leonardo Villarreal
+
+  Besides the above notice, the previous license applies and this license notice
+must be included in all works derived from this project.
+
+  All rights for the project that support this one belong their authors:
+    1) [santimatiz/microserver](https://github.com/santimatiz/microserver)
+
+[Why I do this?](https://medium.com/@laramartin/why-i-added-licenses-to-my-udacity-projects-3070f602006e)
+
+
