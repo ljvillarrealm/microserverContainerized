@@ -1,4 +1,4 @@
-# microserverContanerized
+# Microserver Containerized
 
 This is the containerized version of [santimatiz/microserver](https://github.com/santimatiz/microserver) that I made this project based on the [API-REST con Postgresql y MicroServer course](https://www.udemy.com/course/api-rest-con-postgresql/).
 

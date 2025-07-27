@@ -1,8 +1,6 @@
 CREATE SCHEMA microrest
     AUTHORIZATION dba;
 
-
-
 CREATE TABLE microrest.users
 (
     users character varying(50) COLLATE pg_catalog."default" NOT NULL,
@@ -206,4 +204,3 @@ $BODY$;
 
 ALTER FUNCTION microrest.example1(bigint, character varying, character varying, character varying)
     OWNER TO dba;
-
